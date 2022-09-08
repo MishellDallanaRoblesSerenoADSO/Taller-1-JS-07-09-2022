@@ -1,10 +1,9 @@
 addEventListener("DOMContentLoaded",()=>{
-    // 1. Escribir un programa que sume, reste, multiplique y divida dos números
+    // 2. Escribir un programa que calcule el área de un rectángulo:
+    // lado1 = 3 lado2 = 4 área del rectángulo= lado1 * lado2
+    let lado1= Number(prompt("ingrese el lado1",3))
+    let lado2= Number(prompt("ingrese el lado2",4))
+    let rectangulo= lado1 * lado2
 
-    let num1= Number(prompt("ingrese el numero 1", 2));
-    let num2= Number(prompt("ingrese el numero 2", 2)); 
-    console.log(`la suma es ${num1} + ${num2} = ${num1 + num2}`);
-    console.log(`la resta es ${num1} - ${num2} = ${num1 - num2}`);
-    console.log(`la multiplicacion es ${num1} * ${num2} = ${num1 * num2}`);
-    console.log(`la division es ${num1} / ${num2} = ${num1 / num2}`);
+    console.log(`el area del 'rectangulo' es: ${rectangulo} `)
 })
