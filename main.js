@@ -1,12 +1,11 @@
 addEventListener("DOMContentLoaded",()=>{
-    // 10. Escribir un algoritmo que permita obtener las raíces reales de la ecuación de segundo grado: A * x2 +
-    // b * x + c, siendo X un valor constante.
-
+    // Escribir un programa que calcule el volumen de un elipsoide 
+    // V = (4/3) * PI * a * b *c
+    let v=(4/3) * (Math.PI)
     let a= Number(prompt("Ingrese el valor de a: ",8))
     let b= Number(prompt("Ingrese el valor de b: ",8))
-    let c= Number(prompt("Ingrese el valor de c: ",8))
-    let x= Number(prompt("coloque el valor de x: ",9))
+    let c= Number(prompt("coloque el valor de c: ",9))
 
-    let resultado= ((a*x)**2 + b* x *c)
-    console.log(`Las raices de la ecuacion es: ${resultado}`)
+    let volumen= (v*a*b*c)
+    console.log(`El volumen de un eplisoide es: ${volumen}`)
 })
