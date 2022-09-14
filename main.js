@@ -1,13 +1,12 @@
 addEventListener("DOMContentLoaded",()=>{
-    // Programa que muestre el pago de una llamada telefónica sabiendo que cada minuto cuesta $355
-    // pesos y un IVA de 20%
+    //13. Realice un algoritmo que a partir de proporcionarle la velocidad de un automóvil expresada en
+    // kilómetros por hora, proporcione la velocidad en metros por segundos.
+
 
     let cm= 355
     let iva=0.20
 
-    let min= Number(prompt("Inserte los minutos usados: ",3))
-    let val=(cm*min)
-    let r= (val*iva)
-    let resultado=(val + r)
-    console.log(`El pago de la llamada telefonica es: ${resultado}`)
+    let velocidad= Number(prompt("Coloque los km/h: ",))
+    let resultado=(velocidad *1000/3600)
+    console.log(`Velocidad en m/s: ${resultado}`)
 })
