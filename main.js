@@ -1,24 +1,15 @@
 addEventListener("DOMContentLoaded",()=>{
-    // 16. Elaborar un algoritmo para calcular el promedio final de la materia de algoritmos. Dicha calificación se
-    // compone de los siguientes porcentajes:
-    // • 55% del promedio final de sus calificaciones de los tres(3) parciales.
-    // • 30% de la calificación examen final y
-    // • 15% de la calificación trabajo final.
+    // 17. Dado el valor que un cliente paga por un producto, calcular qué valor corresponde al costo total del
+    // producto y cuánto es el valor del IVA. Considerando que el porcentaje del IVA puede variar en el
+    // tiempo y de un producto a otro, este dato se lee por teclado.
 
 
-    // Notas a evaluar
-    let par1=Number(prompt("Coloque la nota del parcial 1: ",6.5))
-    let par2=Number(prompt("Coloque la nota del parcial 2: ",3))
-    let par3=Number(prompt("Coloque la nota del parcial 3: ",4.6))
-    let ef=Number(prompt("Coloque la nota del examen final: ",9))
-    let tf=Number(prompt("Coloque la nota del trabajo final: ",7))
+    // Valor del producto y el iva 
+    let producto=Number(prompt("Valor del producto: "))
+    let iva=Number(prompt("Valor del iva: "))
     
-    //promedio de los parciales
-    let nota= (par1 + par2 + par3)/3  
-    // porcentajes de cada nota
-    let porcentajes= Number(prompt("", (nota*0.55), (ef*0.30), (tf*0.15) ))
+    //Formula para agregar el iva
+    let costo= (producto * iva)+producto   
 
-    // suma de los porcentajes
-    let suma= (nota+ef+tf)/3
-    console.log(`La nota final con los porcentajes aplicados es: ${suma}`)
+    console.log(`El costo total es: ${costo}`)
 })
