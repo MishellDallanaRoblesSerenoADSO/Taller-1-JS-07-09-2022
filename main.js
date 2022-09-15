@@ -1,14 +1,23 @@
 addEventListener("DOMContentLoaded",()=>{
-    //18. Calcular el sueldo de un empleado dados comodatos de entrada: el nombre, hrs. De trabajo y el pago
-    //en hora. Pagohora=15300
+    // 19. Un estudiante realiza cuatro exámenes. Realizar el pseudocódigo que representen el algoritmo
+    // correspondiente para obtener el promedio de las calificaciones obtenidas. las calificaciones van 1 a 5
+    // puntos.
 
-
-    // Nombre y horas de trabajo
-    let nom=Number(prompt("Nombre del empleado: "))
-    let ht=Number(prompt("Horas de trabajo: "))
+    // Ingreso de notas de los 4 examenes
+    let e1=Number(prompt("Nota del examen 1: ",5))
+    let e2=Number(prompt("Nota del examen 2: ",3))
+    let e3=Number(prompt("Nota del examen 3: ",3))
+    let e4=Number(prompt("Nota del examen 4: ",4))
     
-    //pago por hora
-    let Pagohora= (15300*ht)  
+    // Promedio
+    let nota= (e1+e2+e3+e4)/4 
+    if (nota<2.5){
+        console.log(`no aprobo`)
+    }
 
-    console.log(`: ${costo}`)
+    if (nota>4.5){
+        console.log(`Aprobo`)
+    }
+
+    console.log(`El promedio de las notas es: ${nota}`)
 })
