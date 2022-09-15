@@ -1,23 +1,18 @@
 addEventListener("DOMContentLoaded",()=>{
-    // 19. Un estudiante realiza cuatro exámenes. Realizar el pseudocódigo que representen el algoritmo
-    // correspondiente para obtener el promedio de las calificaciones obtenidas. las calificaciones van 1 a 5
-    // puntos.
+    // 20. Un vendedor recibe un sueldo base más el 10% de comisión sobre sus ventas. Si en un mes
+    // cualquiera hace tres ventas por valores: v1, v2 y v3, ¿cuánto recibirá por comisión? y ¿cuánto en total
+    // sueldo del vendedor?.
 
-    // Ingreso de notas de los 4 examenes
-    let e1=Number(prompt("Nota del examen 1: ",5))
-    let e2=Number(prompt("Nota del examen 2: ",3))
-    let e3=Number(prompt("Nota del examen 3: ",3))
-    let e4=Number(prompt("Nota del examen 4: ",4))
+    // Valor de las 3 ventas
+    let v1=Number(prompt("Valor de la venta 1: ",54))
+    let v2=Number(prompt("Valor de la venta 2: ",62))
+    let v3=Number(prompt("Valor de la venta 3: ",50))
     
-    // Promedio
-    let nota= (e1+e2+e3+e4)/4 
-    if (nota<2.5){
-        console.log(`no aprobo`)
-    }
+    // Comisión de las ventas
+    let ventas=(v1+v2+v3)
+    let comision=(ventas*0.10) 
 
-    if (nota>4.5){
-        console.log(`Aprobo`)
-    }
+    console.log(`Valor de las ventas: ${ventas}`)
+    console.log(`Valor de comision: ${comision}`)
 
-    console.log(`El promedio de las notas es: ${nota}`)
 })
