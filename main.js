@@ -3,6 +3,7 @@ addEventListener("DOMContentLoaded",()=>{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // 1. Escribir un programa que sume, reste, multiplique y divida dos números
 
     let num1= Number(prompt("ingrese el numero 1", 2));
@@ -83,4 +84,19 @@ addEventListener("DOMContentLoaded",()=>{
     console.log(`El cambio es de: ${cambio}`)
     console.log(`Dinero total que tenia es: ${s}`)
 >>>>>>> 5004982 (Ejercicio 24)
+=======
+    // 25. En el programa de cocina de “Doña Anita” han dado la receta para la preparación de bizcocho especial
+    // de chocolate. Por cada 100 gramos de harina hay que añadir 10 gramos de cacao y un puñado de
+    // nueces. Si quiero prepararlos con 20 gramos de chocolate. La cantidad de gramos de harina para
+    // hacer el bizcocho es
+
+    // cantidad de gramos
+    let gramos=Number(prompt("¿Cuántos gramos de cacao le aregará? ", 20))  
+
+    // operación
+    let t=gramos*10
+
+
+    console.log(`La cantidad de gramos de harina que tiene que agregar es: ${t} gramos`)
+>>>>>>> 0732ad0 (Ejercicio 25)
 })
