@@ -93,6 +93,7 @@ addEventListener("DOMContentLoaded",()=>{
 =======
 addEventListener("DOMContentLoaded", (e)=>{
 <<<<<<< HEAD
+<<<<<<< HEAD
     // 26. Un camión transporta 25 cajas de repuestos de carros. Si cada caja pesa 748 Kg ¿ Cuántos Kg
     // transporta ?
 >>>>>>> 4d40ad1 (Ejercicio 26)
@@ -118,4 +119,18 @@ addEventListener("DOMContentLoaded", (e)=>{
 
     // No entendí gg
 >>>>>>> b65a6a7 (El no ejercicio 27)
+=======
+    //28. Pinturas “La brocha gorda” requiere determinar cuánto cobrar por trabajos de pintura. Considere que
+    // se cobra por m2 y realice el código que representen el algoritmo que le permita ir generando
+    // presupuestos para cada cliente.
+
+    // Cantidad y precio del m2 
+    let m2=Number(prompt("¿Cuál es la cantidad de m2?: ",5))
+    let precio=Number(prompt("Precio del m2: ",5))
+
+    // operación
+    let t=m2*precio
+
+    console.log(`El valor de la pintura es: ${t}`)
+>>>>>>> 5e38763 (Ejercicio 28)
 })
