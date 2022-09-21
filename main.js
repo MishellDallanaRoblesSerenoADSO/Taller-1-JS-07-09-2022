@@ -92,6 +92,7 @@ addEventListener("DOMContentLoaded",()=>{
     // hacer el bizcocho es
 =======
 addEventListener("DOMContentLoaded", (e)=>{
+<<<<<<< HEAD
     // 26. Un camión transporta 25 cajas de repuestos de carros. Si cada caja pesa 748 Kg ¿ Cuántos Kg
     // transporta ?
 >>>>>>> 4d40ad1 (Ejercicio 26)
@@ -110,4 +111,11 @@ addEventListener("DOMContentLoaded", (e)=>{
 =======
     console.log(`La cantidad que transporta es de: ${t} kg`)
 >>>>>>> 4d40ad1 (Ejercicio 26)
+=======
+    // 27. tres estudiantes reunieron tapas de gaseosas para repartirlas y venderlas al final del año. Martin toma
+    // 2/3 del total. Jairo un cuarto del total, y Lorena se queda con el resto. ¿qué parte le corresponde a
+    // Lorena?
+
+    // No entendí gg
+>>>>>>> b65a6a7 (El no ejercicio 27)
 })
