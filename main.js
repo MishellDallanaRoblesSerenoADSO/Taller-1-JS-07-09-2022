@@ -1,18 +1,15 @@
 addEventListener("DOMContentLoaded",()=>{
-    // 20. Un vendedor recibe un sueldo base más el 10% de comisión sobre sus ventas. Si en un mes
-    // cualquiera hace tres ventas por valores: v1, v2 y v3, ¿cuánto recibirá por comisión? y ¿cuánto en total
-    // sueldo del vendedor?.
+    //21. Se requiere calcular la distancia entre dos puntos, realizar el código que permita hallar la solución,
+    // por favor utilizar funciones matemáticas de Python para ello
+    // d = rc((x2-x1)^2 + (y2-y1)^2)
 
-    // Valor de las 3 ventas
-    let v1=Number(prompt("Valor de la venta 1: ",54))
-    let v2=Number(prompt("Valor de la venta 2: ",62))
-    let v3=Number(prompt("Valor de la venta 3: ",50))
+    // Valores de los puntos
+    let x1=Number(prompt("Coloca la x1: ",7))
+    let x2=Number(prompt("  Coloca la ordenada 1: ",8))
+    let y1=Number(prompt("Coloca la y1: ",4))
+    let y2=Number(prompt("  Coloca la ordenada 2: ",6))
     
-    // Comisión de las ventas
-    let ventas=(v1+v2+v3)
-    let comision=(ventas*0.10) 
-
-    console.log(`Valor de las ventas: ${ventas}`)
-    console.log(`Valor de comision: ${comision}`)
-
+    // operación
+    let r=Number((x2-x1)**2+(y2-y1)**2)
+    console.log(`La distancia de los puntos es de: ${r}`)
 })
