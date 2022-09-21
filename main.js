@@ -2,6 +2,7 @@ addEventListener("DOMContentLoaded",()=>{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // 1. Escribir un programa que sume, reste, multiplique y divida dos números
 
     let num1= Number(prompt("ingrese el numero 1", 2));
@@ -28,12 +29,15 @@ addEventListener("DOMContentLoaded",()=>{
     // • El tiempo se encuentra en minutos.
     // • Normalmente se mide el volumen en litros y el tiempo en segundos.
 >>>>>>> 55a7805 (Ejercicio 23)
+=======
+    // 24. Un jefe de obra con el dinero que tiene compra cinco juegos de llaves hexagonales cada uno por
+    // $11500. Una bomba en $1168000 y tres cajas de pernos cada uno por $87000. Después de pagar le
+    // sobran $91000. ¿cuánto dinero tenía?
+>>>>>>> 5004982 (Ejercicio 24)
 
-    // datos de caudal, altura y radio del deposito
-    let c=Number(prompt("Cuál es el caudal en l/s: ",90))
-    let h=Number(prompt("Altura del deposito: ",13))
-    let r=Number(prompt("Radio del deposito: ",3))
+    // valores de llaves hexagonales, bomba, cajas perno y cambio 
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     // operación
@@ -66,4 +70,17 @@ addEventListener("DOMContentLoaded",()=>{
     console.log(`El tiempo en segundos que trada el deposito es de: ${t}`)
     console.log(`El tiempo que demora llenando el deposito es de: ${m}`)
 >>>>>>> 55a7805 (Ejercicio 23)
+=======
+    let llaves=Number(prompt("5 llaves: ",11500*5))  
+    let bomba=Number(prompt("1 bomba: ",1168000))  
+    let cajas_p=Number(prompt("Valor de las llaves: ",87000*3))  
+    let cambio=91000     
+    let s= (llaves+bomba+cajas_p+cambio)
+
+    console.log(`Precio de las 5 llaves: ${llaves}`)
+    console.log(`Precio de la bomba: ${bomba}`)
+    console.log(`Precio de las cajas perno: ${cajas_p}`)
+    console.log(`El cambio es de: ${cambio}`)
+    console.log(`Dinero total que tenia es: ${s}`)
+>>>>>>> 5004982 (Ejercicio 24)
 })
