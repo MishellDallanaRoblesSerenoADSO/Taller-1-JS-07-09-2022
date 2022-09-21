@@ -6,9 +6,10 @@ addEventListener("DOMContentLoaded", (e)=>{
     // Solicita año de nacimiento y año actual
     let a=Number(prompt("¿Cuál es su año de nacimiento?: ",5))
     let ac=Number(prompt("Año actual: ",))
-
+    
     // operación
     let edad=ac-a
 
     console.log(`La edad de la persona: ${edad}`)
+
 })
