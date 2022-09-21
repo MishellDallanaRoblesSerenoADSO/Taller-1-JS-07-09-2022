@@ -1,23 +1,19 @@
 addEventListener("DOMContentLoaded",()=>{
-    // 23. Calcular la edad de una madre en el momento de dio a luz a alguno de sus hijos.
-    // • Generar el algoritmo que dé como resultado el tiempo estimado para el llenado de un
-    // depósito.
-    // • Q=V/t, siendo Q (caudal), V (volumen) y t (tiempo).
-    // • Volumen = PI *(radio^2)* H (altura del depósito)
-    // • El tiempo se encuentra en minutos.
-    // • Normalmente se mide el volumen en litros y el tiempo en segundos.
+    // 24. Un jefe de obra con el dinero que tiene compra cinco juegos de llaves hexagonales cada uno por
+    // $11500. Una bomba en $1168000 y tres cajas de pernos cada uno por $87000. Después de pagar le
+    // sobran $91000. ¿cuánto dinero tenía?
 
-    // datos de caudal, altura y radio del deposito
-    let c=Number(prompt("Cuál es el caudal en l/s: ",90))
-    let h=Number(prompt("Altura del deposito: ",13))
-    let r=Number(prompt("Radio del deposito: ",3))
+    // valores de llaves hexagonales, bomba, cajas perno y cambio 
     
-    // operación
-    let v= (Math.PI)*(r**2)*h
-    let t= v/c
-    let m= t/60      
+    let llaves=Number(prompt("5 llaves: ",11500*5))  
+    let bomba=Number(prompt("1 bomba: ",1168000))  
+    let cajas_p=Number(prompt("Valor de las llaves: ",87000*3))  
+    let cambio=91000     
+    let s= (llaves+bomba+cajas_p+cambio)
 
-
-    console.log(`El tiempo en segundos que trada el deposito es de: ${t}`)
-    console.log(`El tiempo que demora llenando el deposito es de: ${m}`)
+    console.log(`Precio de las 5 llaves: ${llaves}`)
+    console.log(`Precio de la bomba: ${bomba}`)
+    console.log(`Precio de las cajas perno: ${cajas_p}`)
+    console.log(`El cambio es de: ${cambio}`)
+    console.log(`Dinero total que tenia es: ${s}`)
 })
