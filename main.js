@@ -95,6 +95,7 @@ addEventListener("DOMContentLoaded", (e)=>{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // 26. Un camión transporta 25 cajas de repuestos de carros. Si cada caja pesa 748 Kg ¿ Cuántos Kg
     // transporta ?
 >>>>>>> 4d40ad1 (Ejercicio 26)
@@ -144,3 +145,16 @@ addEventListener("DOMContentLoaded", (e)=>{
     console.log(`La edad de la persona: ${edad}`)
 >>>>>>> 79c6eea (Ejercicio 29)
 })
+=======
+    //30. Ingrese una frase que lo identifique como programador de Software y luego mostar esta frase
+    // invertida
+
+    // frase
+    let f= prompt("Coloque la frase: ")
+
+    console.log(`${f}`)
+
+    let finvertido =f.split("").reverse().join("")
+    console.log(`${finvertido}`)
+})
+>>>>>>> deb2daf (Ejercicio 30)
